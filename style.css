@@ -1,0 +1,38 @@
+
+body {
+	margin: 0;
+	color: #333;
+	font: normal 13px/18px Helvetica, Arial, sans-serif;
+	background: #f7f0c2 url(images/bg.png) repeat left top;
+}
+
+p {
+	margin: 0;
+	padding: 10px 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: #000;
+}
+h1 { padding: 40px 0 24px; line-height: 1.4em; color: #023875;}
+h2 { padding: 0 0 12px;}
+strong { font-weight: bold;}
+em { font-style: italic;}
+
+.resize{
+	width: 928px;
+	margin: 0 auto;
+	background: #fff;
+	padding: 0px 16px;
+}
+.footer{
+	width: 908px;
+	margin: 5px -16px;
+	background: #023875;
+	padding: 0px 26px;
+	color: #fff
+}
+
