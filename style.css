@@ -1,38 +1,85 @@
 
 body {
 	margin: 0;
+	padding: 16px 0;
 	color: #333;
 	font: normal 13px/18px Helvetica, Arial, sans-serif;
 	background: #f7f0c2 url(images/bg.png) repeat left top;
-}
 
-p {
-	margin: 0;
-	padding: 10px 0;
 }
-
-h1, h2, h3, h4, h5, h6 {
-	margin: 0;
-	padding: 0;
-	font-weight: bold;
-	color: #000;
-}
-h1 { padding: 40px 0 24px; line-height: 1.4em; color: #023875;}
-h2 { padding: 0 0 12px;}
-strong { font-weight: bold;}
-em { font-style: italic;}
-
 .resize{
-	width: 928px;
-	margin: 0 auto;
-	background: #fff;
-	padding: 0px 16px;
-}
-.footer{
-	width: 908px;
+	 width: 928px;
+	 margin: 0 auto;
+	 background: #fff;
+	 padding: 0 16px;
+	border-radius: 5px;
+
+
+ }
+.footer,.line {
 	margin: 5px -16px;
+	border-radius: 5px;
+	padding: 1px 26px;
+	color: #fff;
 	background: #023875;
-	padding: 0px 26px;
-	color: #fff
+    clear: both;
+}
+h1 {
+
+    color: #023875;
+    font-size: 190%;
+}
+a{
+    text-decoration-line: none;
+    color: inherit;
+}
+strong {
+    font-weight: bold;
+}
+.article{
+    width: 60%;
+    float: left;
+    padding: 0 0 65px;
+}
+.aside{
+	float: right;
+    padding: 20px 0;
+
+}
+.aside_1 {
+    padding: 10px 10px;
+    margin: 0 0 0  35px;
+    background: #023875;
+    color: white;
+}
+.info{
+    float: right;
+    color: inherit;
+}
+.logo{
+    float: left;
+    width: 31%;
+    color: #023875;
+
+}
+.oc{
+     color: #333;
+ }
+.images{
+    float: right;
+    width: 15%;
+    line-height: 30px;
+    padding: 15px;
+    color: #333;
+}
+li {
+    list-style-type: none;
+    text-decoration-line: underline ;
+    color: #023875;
+    padding: 5px
 }
 
+.kolesov{
+    font-size: 345%;
+    padding: 0 0 20px 0;
+}
