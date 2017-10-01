@@ -37,9 +37,9 @@ strong {
     font-weight: bold;
 }
 .article{
-    width: 60%;
+    width: 58%;
     float: left;
-    padding: 0 0 65px;
+    padding: 25px 0 65px;
 }
 .aside{
 	float: right;
@@ -47,10 +47,13 @@ strong {
 
 }
 .aside_1 {
-    padding: 10px 10px;
-    margin: 0 0 0  35px;
+    padding: 1px 20px;
+    margin: 0 0 0  15px;
     background: #023875;
     color: white;
+}
+.aside_2{
+    font-size: 145%
 }
 .info{
     float: right;
