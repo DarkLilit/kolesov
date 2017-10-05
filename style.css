@@ -1,88 +1,100 @@
-
 body {
-	margin: 0;
-	padding: 16px 0;
-	color: #333;
-	font: normal 13px/18px Helvetica, Arial, sans-serif;
-	background: #f7f0c2 url(images/bg.png) repeat left top;
+    background: #f7f0c2 url(images/bg.png) repeat left top;
+    font: normal 13px/18px Helvetica, Arial, sans-serif;
+    padding: 16px 0;
+    color: #333;
+    margin: 0;
 
 }
-.resize{
-	 width: 928px;
-	 margin: 0 auto;
-	 background: #fff;
-	 padding: 0 16px;
-	border-radius: 5px;
 
+.resize {
+    border-radius: 5px;
+    background: #fff;
+    padding: 0 16px;
+    margin: 0 auto;
+    width: 928px;
 
- }
-.footer,.line {
-	margin: 5px -16px;
-	border-radius: 5px;
-	padding: 1px 26px;
-	color: #fff;
-	background: #023875;
+}
+
+.footer, .line {
+    background: #023875;
+    border-radius: 5px;
+    padding: 1px 26px;
+    margin: 5px -16px;
     clear: both;
+    color: #fff;
 }
+
 h1 {
 
-    color: #023875;
     font-size: 190%;
+    color: #023875;
 }
-a{
+
+a {
     text-decoration-line: none;
     color: inherit;
 }
+
 strong {
     font-weight: bold;
 }
-.article{
-    width: 58%;
-    float: left;
+
+.article {
     padding: 25px 0 65px;
+    float: left;
+    width: 58%;
 }
-.aside{
-	float: right;
+
+.aside {
     padding: 20px 0;
+    float: right;
 
 }
+
 .aside_1 {
-    padding: 1px 20px;
-    margin: 0 0 0  15px;
     background: #023875;
+    margin: 0 0 0 15px;
+    padding: 1px 20px;
     color: white;
 }
-.aside_2{
+
+.aside_2 {
     font-size: 145%
 }
-.info{
-    float: right;
+
+.info {
     color: inherit;
+    float: right;
 }
-.logo{
+
+.logo {
+    color: #023875;
     float: left;
     width: 31%;
-    color: #023875;
 
 }
-.oc{
-     color: #333;
- }
-.images{
-    float: right;
-    width: 15%;
-    line-height: 30px;
-    padding: 15px;
+
+.oc {
     color: #333;
 }
+
+.images {
+    line-height: 30px;
+    padding: 15px;
+    float: right;
+    color: #333;
+    width: 15%;
+}
+
 li {
+    text-decoration-line: underline;
     list-style-type: none;
-    text-decoration-line: underline ;
     color: #023875;
     padding: 10px
 }
 
-.kolesov{
-    font-size: 345%;
+.kolesov {
     padding: 0 0 20px 0;
+    font-size: 345%;
 }
